@@ -9,7 +9,7 @@
 /coverage
 
 /a
-
+.env
 
 # next.js
 /.next/
