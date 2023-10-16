@@ -18,5 +18,5 @@ export default function DarkThemeProvider({
     return <>{children}</>;
   }
 
-  return <ThemeProvider>{children}</ThemeProvider>;
+  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
 }

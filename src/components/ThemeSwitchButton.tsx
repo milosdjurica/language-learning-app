@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 
 import React from "react";
 import { useTheme } from "next-themes";
+import SunIcon from "./SunIcon";
+import MoonIcon from "./MoonIcon";
 
 export default function ThemeSwitchButton() {
   const { theme, setTheme } = useTheme();
@@ -18,8 +20,15 @@ export default function ThemeSwitchButton() {
 
   return (
     <div className="flex space-x-5">
-      <button onClick={() => setTheme("light")}>Light Mode</button>
-      <button onClick={() => setTheme("dark")}>Dark Mode</button>
+      {theme === "dark" ? (
+        <button onClick={() => setTheme("light")}>
+          <MoonIcon />
+        </button>
+      ) : (
+        <button onClick={() => setTheme("dark")}>
+          <SunIcon />
+        </button>
+      )}
     </div>
   );
 }
