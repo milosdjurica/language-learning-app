@@ -19,16 +19,22 @@ export default function ThemeSwitchButton() {
   }
 
   return (
-    <div className="flex space-x-5">
+    <>
       {theme === "dark" ? (
-        <button onClick={() => setTheme("light")}>
+        <button
+          className="p-2 rounded-xl bg-gray-800"
+          onClick={() => setTheme("light")}
+        >
           <MoonIcon />
         </button>
       ) : (
-        <button onClick={() => setTheme("dark")}>
+        <button
+          className="p-2 rounded-xl bg-gray-200"
+          onClick={() => setTheme("dark")}
+        >
           <SunIcon />
         </button>
       )}
-    </div>
+    </>
   );
 }

@@ -1,16 +1,16 @@
 "use client";
 
 import { signOut } from "next-auth/react";
-import Link from "next/link";
 import React from "react";
+import ThemeSwitchButton from "./ThemeSwitchButton";
+import NavBar from "./NavBar";
 
 export default function Header() {
   return (
-    <div className="">
-      <Link href="/">Home </Link>
-      <Link href="/">Translate</Link>
+    <div className="flex justify-around">
+      <NavBar />
+      <ThemeSwitchButton />
       <button onClick={() => signOut()}>Sign Out</button>
-      {/* // ! add dark mode picker */}
       {/* // ! Name Surname dropdown for options and log out */}
     </div>
   );
