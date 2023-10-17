@@ -35,12 +35,12 @@ export function DropdownMenuDemo() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline">
+        <Button variant="outline" className="border border-primary">
           {session?.user?.name || session?.user?.email}
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent className="w-48">
+      <DropdownMenuContent className="w-48 border border-primary">
         <div className="flex justify-between">
           <ThemeSwitchButton />
           <DropdownMenuLabel>My Account</DropdownMenuLabel>
