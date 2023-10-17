@@ -3,7 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import AuthProvider from "@/providers/AuthProvider";
-import DarkThemeProvider from "@/providers/DarkThemeProvider";
+import ThemeProvider from "@/providers/DarkThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,10 +22,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <AuthProvider>
-          <DarkThemeProvider>
+          <ThemeProvider>
             <Header />
             {children}
-          </DarkThemeProvider>
+          </ThemeProvider>
         </AuthProvider>
       </body>
     </html>
