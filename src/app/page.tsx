@@ -1,5 +1,6 @@
 import { TextareaWithButton } from "@/components/TextareaWithButton";
 import { getServerSession } from "next-auth/next";
+import ChooseLanguage from "../components/ChooseLanguage";
 
 export default async function Home() {
   const session2 = await getServerSession();
@@ -8,7 +9,8 @@ export default async function Home() {
     <div>
       <h1 className="text-3xl">{session2?.user?.name}</h1>
 
-      <div className="w-1/2 m-auto mt-5">
+      <div className="w-1/2 m-auto mt-5 space-y-4">
+        <ChooseLanguage />
         <TextareaWithButton />
       </div>
     </div>
