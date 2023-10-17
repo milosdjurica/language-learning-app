@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import AuthProvider from "@/providers/AuthProvider";
 import ThemeProvider from "@/providers/DarkThemeProvider";
+import RecoilProvider from "@/providers/RecoilProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,12 +22,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <AuthProvider>
-          <ThemeProvider>
-            <Header />
-            {children}
-          </ThemeProvider>
-        </AuthProvider>
+        <RecoilProvider>
+          <AuthProvider>
+            <ThemeProvider>
+              <Header />
+              {children}
+            </ThemeProvider>
+          </AuthProvider>
+        </RecoilProvider>
       </body>
     </html>
   );
