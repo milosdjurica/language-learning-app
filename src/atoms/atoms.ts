@@ -6,6 +6,16 @@ export const insertTextState = atom<string>({
 });
 
 export const selectedLanguageState = atom<string>({
-  key: "selectedLanguageState", // unique ID (with respect to other atoms/selectors)
-  default: "es", // default value (aka initial value)
+  key: "selectedLanguageState",
+  default: "es",
+});
+
+export const firstTranslatedTextState = atom<string>({
+  key: "firstTranslatedTextState",
+  default: "",
+});
+
+export const secondTranslatedTextState = atom<string>({
+  key: "secondTranslatedTextState",
+  default: "",
 });
