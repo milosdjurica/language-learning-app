@@ -25,11 +25,15 @@ export const options: NextAuthOptions = {
       async authorize(credentials) {
         // ! get data from database
         // https://next-auth.js.org/configuration/providers/credentials
-        const user = { id: "42", name: "Milos", password: "next-auth123" };
+        const user = {
+          id: "42",
+          name: process.env.NEXT_SECRET_USERNAME,
+          password: process.env.NEXT_SECRET_PASSWORD,
+        };
 
         if (
           credentials?.username === user.name &&
-          credentials.password === user.password
+          credentials?.password === user.password
         ) {
           return user;
         } else {
