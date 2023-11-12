@@ -130,6 +130,14 @@ NEXT_SECRET_USERNAME = "test username for credentials log in";
 NEXT_SECRET_PASSWORD = "test password for credentials log in";
 ```
 
+7. Start app in dev mode
+
+   ```sh
+   npm run dev
+   #or
+   yarn dev
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
