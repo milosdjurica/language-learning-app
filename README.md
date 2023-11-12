@@ -95,7 +95,7 @@ You also need to get API key from Microsoft Translator Text API. You should save
 1. Get a free API Key at [https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/microsoft-translator-text/pricing](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/microsoft-translator-text/pricing)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/milosdjurica/language-learning-app.git
    ```
 3. Install NPM packages
 
@@ -179,7 +179,7 @@ Don't forget to give the project a star! Thanks again!
 
 Miloš Đurica - [My LinkedIn](https://www.linkedin.com/in/milosdjurica/) - milosdjurica.work@gmail.com
 
-Project Link: [https://github.com/milosdjurica/repo_name](https://github.com/milosdjurica/repo_name)
+Project Link: [https://github.com/milosdjurica/language-learning-app](https://github.com/milosdjurica/language-learning-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
