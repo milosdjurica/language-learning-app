@@ -207,5 +207,4 @@ Project Link: [https://github.com/milosdjurica/repo_name](https://github.com/mil
 [React-url]: https://reactjs.org/
 [NextAuth.js]: https://img.shields.io/badge/nextauth.js-000000?style=for-the-badge&logo=next-dot-js
 [NextAuth-url]: https://next-auth.js.org/
-
-[TailwindCSS]: https://img.shields.io/badge/tailwind-css-38B2AC?style=for-the-badge&logo=tailwind-css[Tailwind-url]: https://tailwindcss.com
+[Tailwind-url]: https://tailwindcss.com
