@@ -67,8 +67,9 @@ Application is created using Next.js. For authentication I used NextAuth. User c
 
 - [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
-- [![TailwindCSS][TailwindCSS]][Tailwind-url]
-- [![NextAuth.js][NextAuth.js]][NexAuth-url]
+- [![Tailwind CSS](https://img.shields.io/badge/tailwind-css-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+- [![NextAuth.js](https://img.shields.io/badge/nextauth.js-000000?style=for-the-badge&logo=next-dot-js&logoColor=white)](https://next-auth.js.org/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
