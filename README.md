@@ -9,14 +9,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/milosdjurica/language-learning-app">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
+ 
   <h3 align="center">Language learning app</h3>
 
   <p align="center">
-    Application that can insert a message on Spanish/English/Serbian, and app will translate the message to 2 of the remaining languages.
+    Application that can insert a message on Spanish, English or Serbian, and app will translate the message to 2 of the remaining languages.
     <br />
     <a href="https://language-learning-app-milosdjurica.vercel.app/">View Demo</a>
     ·
@@ -70,13 +67,8 @@ Application is created using Next.js. For authentication I used NextAuth. User c
 
 - [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
-- [![Vue][Vue.js]][Vue-url]
-- [![Angular][Angular.io]][Angular-url]
-- [![Svelte][Svelte.dev]][Svelte-url]
-- [![Laravel][Laravel.com]][Laravel-url]
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![JQuery][JQuery.com]][JQuery-url]
-
+- [![TailwindCSS][TailwindCSS]][Tailwind-url]
+- [![NextAuth.js][NextAuth.js]][NexAuth-url]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -212,15 +204,7 @@ Project Link: [https://github.com/milosdjurica/repo_name](https://github.com/mil
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
+[NextAuth.js]: https://img.shields.io/badge/nextauth.js-000000?style=for-the-badge&logo=next-dot-js
+[NextAuth-url]: https://next-auth.js.org/
+
+[TailwindCSS]: https://img.shields.io/badge/tailwind-css-38B2AC?style=for-the-badge&logo=tailwind-css[Tailwind-url]: https://tailwindcss.com
