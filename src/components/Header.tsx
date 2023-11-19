@@ -2,17 +2,14 @@
 
 import React from "react";
 import { ThemeSwitchButton } from "./ThemeSwitchButton";
-import { signOut, useSession } from "next-auth/react";
+import { signOut } from "next-auth/react";
 import { Button } from "./ui/button";
 import { LogOut } from "lucide-react";
 
 export default function Header() {
-  const { data: session } = useSession();
-
   return (
     <header className="flex justify-between px-4 py-2 items-center border-b border-border">
       <ThemeSwitchButton />
-      <h3>Welcome {session?.user?.name || session?.user?.email}</h3>
       <Button
         variant="outline"
         className="border border-primary"
