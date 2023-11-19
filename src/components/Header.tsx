@@ -12,9 +12,7 @@ export default function Header() {
   return (
     <header className="flex justify-between px-4 py-2 items-center border-b border-border">
       <ThemeSwitchButton />
-      <h3>
-        Welcome back &#34;{session?.user?.name || session?.user?.email}&#34;
-      </h3>
+      <h3>Welcome {session?.user?.name || session?.user?.email}</h3>
       <Button
         variant="outline"
         className="border border-primary"
