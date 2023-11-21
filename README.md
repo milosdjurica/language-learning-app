@@ -76,8 +76,7 @@ Application is created using Next.js. For authentication I used NextAuth. User c
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+All you need to do in order to start this project locally is to clone the repo and follow the instructions below.
 
 ### Prerequisites
 
